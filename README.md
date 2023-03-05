@@ -136,7 +136,7 @@
   
   
   <p>
-  <img/ src = "https://i.imgur.com/rrH9KH9.png" height ="80%" width = "80%" alt= "Active Directory img"/>
+  <img/ src = "https://i.imgur.com/EgkpH9B.png" height ="80%" width = "80%" alt= "Active Directory img"/>
   
   </p>
     
@@ -145,10 +145,11 @@
   </p>
   
   <p>
-  <img/ src = "https://i.imgur.com/VCbfLH2.png" height ="80%" width = "80%" alt= "Active Directory img"/>
+  <img/ src = "https://i.imgur.com/lzlG16h.png" height ="80%" width = "80%" alt= "Active Directory img"/>
   </p>
     
- <p>   now we need to create our admin. Here its gonna be Joe Doe. Their Log in is going to be joe_admin. 
+ <p> 
+  Now we notice vubex is able to log in on the server in client-1. We have finally configured our windows server, using Active Directory to configure and mange it.
   </p>
   
   
@@ -156,6 +157,8 @@
   <img/ src = "https://i.imgur.com/VCbfLH2.png" height ="80%" width = "80%" alt= "Active Directory img"/>
   </p>
     
- <p>   now we need to create our admin. Here its gonna be Joe Doe. Their Log in is going to be joe_admin. 
+ <p>   
+  As an extra tip. If the user of the domain Cant access the server due to wrong password. The joe_admin can go to Active Directory. Right click on the user 
+  . The click "rest password".Be  sure to check the unlock user box. 
   </p>
     
