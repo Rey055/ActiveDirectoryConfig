@@ -109,34 +109,39 @@
   
   
   <p>
-  <img/ src = "https://i.imgur.com/VCbfLH2.png" height ="80%" width = "80%" alt= "Active Directory img"/>
+  <img/ src = "https://i.imgur.com/MXlLJSN.png" height ="80%" width = "80%" alt= "Active Directory img"/>
   </p>
     
- <p>   now we need to create our admin. Here its gonna be Joe Doe. Their Log in is going to be joe_admin. 
+ <p>   
+  ok, so its time to join Client  to DC as pictured here. Go to system settings and click on "rename Pc". Then click change, once done enter the domain. It will ask you to log on. You will need to use your admin account. Here I will use joe's account.
   </p>
   
   <p>
-  <img/ src = "https://i.imgur.com/VCbfLH2.png" height ="80%" width = "80%" alt= "Active Directory img"/>
+  <img/ src = "https://i.imgur.com/Ywp8nYD.png" height ="80%" width = "80%" alt= "Active Directory img"/>
   </p>
     
- <p>   now we need to create our admin. Here its gonna be Joe Doe. Their Log in is going to be joe_admin. 
+ <p>   
+  Once connected we can verfy if its connected on the server end. So we acces Active Directory again. It should be under Computer folder. Once her I will put it in a made Organization unit folder named "Clients".
   </p>
   
   
   
   <p>
-  <img/ src = "https://i.imgur.com/VCbfLH2.png" height ="80%" width = "80%" alt= "Active Directory img"/>
+  <img/ src = "https://i.imgur.com/rrH9KH9.png" height ="80%" width = "80%" alt= "Active Directory img"/>
   </p>
     
- <p>   now we need to create our admin. Here its gonna be Joe Doe. Their Log in is going to be joe_admin. 
+ <p>  
+  Ok now its time to log on to Client-1 as joe. To esnure Dc-1 server can be accessed by any account on client-1. You go to sysyem settings. On the right you click on    remote desktop on the right. Once there, you go on the bottom and press the option called "select users that can access this pc." Once slected type  "Domain Users" and press add. then press ok.
   </p>
   
   
   <p>
-  <img/ src = "https://i.imgur.com/VCbfLH2.png" height ="80%" width = "80%" alt= "Active Directory img"/>
+  <img/ src = "https://i.imgur.com/rrH9KH9.png" height ="80%" width = "80%" alt= "Active Directory img"/>
+  
   </p>
     
- <p>   now we need to create our admin. Here its gonna be Joe Doe. Their Log in is going to be joe_admin. 
+ <p>   Now its time to see if a user can connect to the domain via Client-1. So i created some accounts. Lets use one of them. we will use "vubex.fit" 
+  
   </p>
   
   <p>
