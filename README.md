@@ -154,11 +154,11 @@
   
   
   <p>
-  <img/ src = "https://i.imgur.com/VCbfLH2.png" height ="80%" width = "80%" alt= "Active Directory img"/>
+  <img/ src = "https://i.imgur.com/J5HmPV3.png" height ="80%" width = "80%" alt= "Active Directory img"/>
   </p>
     
  <p>   
   As an extra tip. If the user of the domain Cant access the server due to wrong password. The joe_admin can go to Active Directory. Right click on the user 
-  . The click "rest password".Be  sure to check the unlock user box. 
+  . The click "rest password".Be  sure to check the unlock user box. Now  our user can log back on with a new password. 
   </p>
     
