@@ -28,7 +28,7 @@
   </p>
     
  <p>   First, Logging on to Client-1 we will need to ping Dc-1. We notice that no specfic traffic is reaching from client to DC.
-    we staart noticing by defualt ICMP4 traffic cannot be eastibalished from our DC-1(10.0.0.4). Now we need to enable this traffic in our DC-1
+    we staart noticing by default ICMP4 traffic cannot be established from our DC-1(10.0.0.4). Now we need to enable this traffic in our DC-1
   </p>
   
    <p>
@@ -36,7 +36,7 @@
   </p>
     
  <p> In DC-1, once wew log on we have to access windows firewall security. Once we lauch this program, we go to far left and slect inbound rules from a clent.
-  Once here we fileter protcol trasffic and slelect the first two ICMp4 rules. Once they are highlighted we go to right and enable rule.
+  Once here we fileter protcol trasffic and slelect the first two ICMP4 rules. Once they are highlighted we go to right and enable rule.
   </p>
   
    <p>
@@ -93,7 +93,7 @@
   <img/ src = "https://i.imgur.com/xMR1o3z.png" height ="80%" width = "80%" alt= "Active Directory img"/>
   </p>
     
- <p>   Now we need to test out our Admin account on DC-1
+ <p>   Now we need to test out our Admin account on DC-1.
   </p>
   
   
@@ -149,7 +149,7 @@
   </p>
     
  <p> 
-  Now we notice vubex is able to log in on the server in client-1. We have finally configured our windows server, using Active Directory to configure and mange it.
+  Now we notice vubex is able to log in on the server in client-1. We have finally configured our windows server, using Active Directory to configure and manage it.
   </p>
   
   
